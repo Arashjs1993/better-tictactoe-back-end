@@ -1,5 +1,5 @@
 import { Controller, Post, Body } from '@nestjs/common';
-import { UserInfoInterface } from 'src/info/interfaces';
+import { UserInfoInterface } from 'src/user-form/interfaces';
 import { UserFormService } from './user-form.service';
 import { BaseResponse } from 'src/interfaces';
 @Controller('user-form')
